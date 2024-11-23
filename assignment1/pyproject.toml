@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.10"
 roboticstoolbox-python = {extras = ["collisions"], version = "^1.1.1"}
 numpy = "1.26.4"
+matplotlib = "^3.9.2"
 
 
 [build-system]
