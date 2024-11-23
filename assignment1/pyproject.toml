@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "assignment1"
+version = "0.1.0"
+description = "trossen pincherx 100 kinematics"
+authors = ["frankcholula <lu.phrank@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
