@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "assignment1"
+name = "trossen"
 version = "0.1.0"
-description = "trossen pincherx 100 kinematics"
+description = "trossen pincherx 100 kinematics simulation"
 authors = ["frankcholula <lu.phrank@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+roboticstoolbox-python = {extras = ["collisions"], version = "^1.1.1"}
+numpy = "1.26.4"
 
 
 [build-system]
