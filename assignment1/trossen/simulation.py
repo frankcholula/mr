@@ -8,7 +8,7 @@ class PincherX100(DHRobot):
             RevoluteDH(alpha=np.pi / 2, a=0, d=0.08945, offset=0, qlim=[-np.pi, np.pi]),
             RevoluteDH(
                 alpha=0,
-                a=0.035,
+                a=0.10595,
                 d=0,
                 offset=0,
                 qlim=[np.deg2rad(-111), np.deg2rad(107)],
@@ -31,7 +31,7 @@ class PincherX100(DHRobot):
         super().__init__(links, name="PincherX100")
 
 robot = PincherX100()
-
+print(robot)
 # Define a sequence of joint angles (in radians)
 q1 = [0, 0, 0, 0]
 q2 = [np.pi / 4, np.pi / 4, 0, 0]
@@ -59,7 +59,7 @@ q_traj = np.array(trajectory)
 robot.plot(
     q_traj,
     block=True,
-    limits=[-0.2, 0.2, -0.2, 0.2, 0, 0.4],
+    limits=[-0.3, 0.3, -0.2, 0.2, 0, 0.4],
     jointaxes=True,  # Optional
     eeframe=True,    # Optional
 )
