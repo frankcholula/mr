@@ -1,7 +1,13 @@
 .PHONY: all
-all: run
+all: kinematics workspace
 
-.PHONY: run
-run:
-	@echo "Running the simulation..."
-	python trossen/simulation.py
+.PHONY: kinematics
+kinematics:
+	@echo "Running kinematics simulation..."
+	@python trossen/simulation.py
+
+
+.PHONY: workspace
+workspace:
+	@echo "Running workspace simulation..."
+	@python trossen/workspace.py
