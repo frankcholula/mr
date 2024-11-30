@@ -11,3 +11,8 @@ kinematics:
 workspace:
 	@echo "Running workspace simulation..."
 	@python trossen/workspace.py
+
+.PHONY: singularities
+singularities:
+	@echo "Running singularities simulation..."
+	@python trossen/singularities.py
