@@ -1,10 +1,10 @@
 .PHONY: all
-all: kinematics workspace
+all: kinematics workspace singularities
 
 .PHONY: kinematics
 kinematics:
 	@echo "Running kinematics simulation..."
-	@python trossen/simulation.py
+	@python trossen/kinematics.py
 
 
 .PHONY: workspace

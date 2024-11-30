@@ -8,7 +8,7 @@ if __name__ == "__main__":
     q1 = [0, 0, 0, 0]
     q2 = [np.pi / 4, -np.pi / 4, 0, 0]
     q3 = [np.pi / 4, -np.pi / 4, -np.pi / 4, 0]
-    q4 = [np.pi / 4, -np.pi / 4, -np.pi / 4, np.pi / 4]  # Corrected to 4 elements
+    q4 = [np.pi / 4, -np.pi / 4, -np.pi / 4, np.pi / 4]
     q5 = [0, 0, 0, 0]
 
     q_list = [q1, q2, q3, q4, q5]
