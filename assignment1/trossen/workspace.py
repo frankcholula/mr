@@ -3,10 +3,14 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 
-def is_point_dextrous(robot, t1, t2, t3, theta4, position_threshold=0.05):
-    # Check for straight arm singularity
+def is_point_dextrous(robot, t1, t2, t3, theta4, position_threshold=0.05, angle_threshold=0.2):
+    # 1. Check for elbow singularities (both fully extended and folded back)
     arm_angle = abs(t2 + t3)
-    if abs(arm_angle) < 0.2 or abs(arm_angle - np.pi) < 0.2:
+    if abs(arm_angle) < angle_threshold or abs(arm_angle - np.pi) < angle_threshold:
+        return False, None
+        
+    # 2. Check for vertical alignment singularity
+    if (abs(abs(t2) - np.pi/2) < angle_threshold) and (abs(t3) < angle_threshold):
         return False, None
 
     # Collect positions for different wrist angles
@@ -17,7 +21,7 @@ def is_point_dextrous(robot, t1, t2, t3, theta4, position_threshold=0.05):
             pos = [float(T.t[0]), float(T.t[1]), float(T.t[2])]
             positions.append(pos)
 
-    # If we have valid positions, check position variation
+    # 3. Check wrist dexterity through position variation
     if len(positions) > 0:
         positions = np.array(positions)
         variation = np.max([np.std(positions[:, i]) for i in range(3)])
