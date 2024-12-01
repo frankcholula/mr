@@ -1,5 +1,5 @@
 import numpy as np
-from trossen.robots import PincherX100
+from assignment1.robots import PincherX100
 
 if __name__ == "__main__":
     robot = PincherX100()

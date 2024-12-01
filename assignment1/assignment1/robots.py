@@ -1,6 +1,5 @@
 import numpy as np
 from roboticstoolbox import DHRobot, RevoluteDH
-import matplotlib.pyplot as plt
 
 
 class PincherX100(DHRobot):
@@ -32,4 +31,3 @@ class PincherX100(DHRobot):
             ),
         ]
         super().__init__(links, name="PincherX100")
-
