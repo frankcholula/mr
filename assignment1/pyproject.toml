@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "trossen"
+name = "assignment1"
 version = "0.1.0"
-description = "trossen pincherx 100 kinematics simulation"
+description = "trossen pincherx 100 and kuka kinematics simulation"
 authors = ["frankcholula <lu.phrank@gmail.com>"]
 license = "MIT"
 readme = "README.md"
