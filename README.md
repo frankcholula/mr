@@ -3,6 +3,48 @@ Hello! This is an assignment repository for the University of Surrey's Medical R
 
 If you are a **University of Surrey student**, you are welcome to use this project as a learning resource and reference for your coursework. A simple credit to the OC (wee! that's me, [Frank](https://frankcholula.notion.site/)) would be greatly appreciated. However, please note that submitting this work as your own academic assignment is not permitted and may lead to [academic misconduct penalties](https://www.surrey.ac.uk/office-student-complaints-appeals-and-regulation/academic-misconduct-and-appeals). Just make sure you're submitting your orignal work 😊.
 
+## Setup 🛠
+T️his project uses `Python 3.10.7` and [Poetry](https://python-poetry.org/) for dependency management. To install the dependencies, run the following command:
+```bash
+cd assignment1
+poetry shell
+poetry install
+```
+
+I also highly recommend using `pyenv` to manage your Python versions. You can install `pyenv` using the following command:
+```bash
+brew install pyenv
+pyenv install 3.10.7
+```
+
+## Directory Layout 📖
+```bash
+mr
+├── LICENSE
+├── README.md
+├── assignment1
+│   ├── Makefile
+│   ├── README.md
+│   ├── assignment1
+│   ├── assignment1_brief.pdf
+│   ├── assignment1_submission.pdf
+│   ├── model_files
+│   ├── model_files.zip
+│   ├── poetry.lock
+│   ├── pyproject.toml
+│   └── references
+├── assignment1.zip
+└── practicals
+    ├── Medical Robotics Practical 1a.pdf
+    ├── Medical Robotics Practical 1b.pdf
+    ├── graphics.mat
+    ├── lab3.m
+    ├── license.txt
+    ├── linksdata.mat
+    └── puma_simulation.m
+```
+You'll find the Trossen PincherX 100 model files in .stl, .step, and .f3d format in the model_files directory. All simulations and workspace analysis are in the `assignment1` directory. The `practicals` directory contains MATLAB files for the practicals.
+
 ## Other Learning Resources 📚
 - [Peter Corke's Robotics Toolbox in Python](https://github.com/petercorke/robotics-toolbox-python)
 - [Interbotix PincherX 100 Arm Specification](https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/px100.html)
