@@ -57,7 +57,7 @@ You'll find the Trossen PincherX 100 model files in `.stl`, `.step`, and `.f3d` 
 ## License 📃
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). 
 This means:
-1.  **Attribution**: You must give appropriate credit to the original author (me, Frank Lu) if you use or modify this project.
+1.  **Attribution**: You must give appropriate credit to the original author (me, Frank Lü) if you use or modify this project.
 2.  **Freedom**: You are free to use, modify, and distribute this project, including for commercial purposes, without restriction.
 3.	**No Warranty**: This project is provided “as-is” without any warranty or liability on the part of the author.
 
