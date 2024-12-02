@@ -48,7 +48,7 @@ mr
     ├── linksdata.mat
     └── puma_simulation.m
 ```
-You'll find the Trossen PincherX 100 model files in .stl, .step, and .f3d format in the model_files directory. All simulations and workspace analysis are in the `assignment1` directory. The `practicals` directory contains MATLAB files for the practicals.
+You'll find the Trossen PincherX 100 model files in `.stl`, `.step`, and `.f3d` format in the model_files directory. All simulations and workspace analysis are in the `assignment1` directory. The `practicals` directory contains MATLAB files for the practicals.
 
 ## Other Learning Resources 📚
 - [Peter Corke's Robotics Toolbox in Python](https://github.com/petercorke/robotics-toolbox-python)
