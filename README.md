@@ -50,7 +50,7 @@ mr
 ```
 You'll find the Trossen PincherX 100 model files in `.stl`, `.step`, and `.f3d` format in the `model_files` directory. All simulations and workspace analysis are in the `assignment1` directory. The `practicals` directory contains MATLAB files for the practicals.
 
-## Other Learning Resources 📚
+## References 📚
 - [Peter Corke's Robotics Toolbox in Python](https://github.com/petercorke/robotics-toolbox-python)
 - [Interbotix PincherX 100 Arm Specification](https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/px100.html)
 
