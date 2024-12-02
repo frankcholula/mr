@@ -11,10 +11,15 @@ poetry shell
 poetry install
 ```
 
-I also highly recommend using `pyenv` to manage your Python versions. You can install `pyenv` using the following command:
+I also highly recommend using `pyenv` to manage your Python versions. If you're a Mac user, you can install `pyenv` using the following command:
 ```bash
 brew install pyenv
 pyenv install 3.10.7
+```
+
+For Windows users, you can install `pyenv-win` using [chocolatey](https://chocolatey.org/) or run the following command in PowerShell as an administrator:
+```bash
+Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 ```
 
 ## Directory Layout 📖
