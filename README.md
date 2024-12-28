@@ -1,6 +1,9 @@
 # Medical Robotics 🤖
 Hello! This is an assignment repository for the University of Surrey's Medical Robotics class. You'll find kinematics simulation and workspace analysis for a 4-DOF PincherX 100 robot arm in this repository. I've built the simulations using [Peter Corke's Robotics Toolbox in Python](https://github.com/petercorke/robotics-toolbox-python). The write-up can be found [here](https://www.notion.so/frankcholula/Medical-Robotics-Coursework-1403b40fbcd580b9b51ddbc292d31d40?pvs=4) on my personal Notion page.
 
+![image](https://github.com/user-attachments/assets/80294f6b-9581-4fac-bd77-e81e3e30b4b7)
+
+
 If you are a **University of Surrey student**, you are welcome to use this project as a learning resource and reference for your coursework. A simple credit to the OC (wee! that's me, [Frank](https://frankcholula.notion.site/)) would be greatly appreciated. However, please note that submitting this work as your own academic assignment is not permitted and may lead to [academic misconduct penalties](https://www.surrey.ac.uk/office-student-complaints-appeals-and-regulation/academic-misconduct-and-appeals). Just make sure you're submitting your orignal work 😊.
 
 ## Setup 🛠
